@@ -26,7 +26,7 @@ function App() {
             text: text,
             voice: voice, // optional, will use a default or fallback
             pitch: 1,
-            rate: 1,
+            rate: 0.8,
             volume: 1,
             // there are more events, see the API for supported events
             boundary: (e) => console.debug("boundary reached"),
